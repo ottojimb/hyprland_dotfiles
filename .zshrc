@@ -122,3 +122,7 @@ fpath=(${ASDF_DATA_DIR:-$HOME/.asdf}/completions $fpath)
 # initialise completions with ZSH's compinit
 autoload -Uz compinit && compinit
 ######### END ASDF
+export TEXLIVE=/home/ottojimb/texlive/2025
+export PATH=/home/ottojimb/texlive/2025/bin/x86_64-linux:/home/ottojimb/.asdf/shims:/home/ottojimb/.asdf/shims:/home/ottojimb/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+export MANPATH=/home/ottojimb/texlive/2025/texmf-dist/doc/man:
+export INFOPATH=/home/ottojimb/texlive/2025/texmf-dist/doc/info:
